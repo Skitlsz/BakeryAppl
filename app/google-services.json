@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210073203490",
+    "firebase_url": "https://bakery-app-2c72b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bakery-app-2c72b",
+    "storage_bucket": "bakery-app-2c72b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210073203490:android:b805a68d07b10045db6b7b",
+        "android_client_info": {
+          "package_name": "com.example.bakeryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210073203490-lahu03ci1mfqjqqv4qhnuoe52ul34evc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbHnrEBsL1QbRp0Nu5Hf6HUVO9-q7sinU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210073203490-lahu03ci1mfqjqqv4qhnuoe52ul34evc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

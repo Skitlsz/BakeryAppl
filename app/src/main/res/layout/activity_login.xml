@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/div"
+        android:elevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/logobake"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/loginframe"
+            android:fontFamily="serif"
+            android:hint="Enter Username"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/Logo"
+            android:textCursorDrawable="@drawable/cursor2"/>
+        <TextView
+            android:id="@+id/errMsg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/uname"
+            app:layout_constraintStart_toStartOf="@id/uname"
+            app:layout_constraintEnd_toEndOf="@id/uname"
+            android:fontFamily="serif"
+            android:text=" "
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/loginframe"
+            android:fontFamily="serif"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/errMsg2"
+            android:textCursorDrawable="@drawable/cursor2"/>
+        <TextView
+            android:id="@+id/errMsg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/pass"
+            app:layout_constraintStart_toStartOf="@id/pass"
+            app:layout_constraintEnd_toEndOf="@id/pass"
+            android:fontFamily="serif"
+            android:text=" "
+            android:textColor="#FF0000" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="84dp"
+            app:layout_constraintTop_toBottomOf="@+id/errMsg3"
+            app:layout_constraintStart_toStartOf="@id/errMsg3"
+            app:layout_constraintEnd_toEndOf="@+id/errMsg3"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cake_removebg_preview__1_"
+            android:onClick="homepage"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
